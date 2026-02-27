@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://contactautomatex-byte.github.io/central-vip-26/sitemap.xml
