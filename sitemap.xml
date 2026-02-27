@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Página Principal -->
+  <url>
+    <loc>https://contactautomatex-byte.github.io/central-vip-26/</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Futuras páginas satélite (preparei estrutura) -->
+  <!-- Quando criar artigos, apenas descomente e ajuste -->
+
+  <!--
+  <url>
+    <loc>https://contactautomatex-byte.github.io/central-vip-26/artigos/acesso-canal-18.html</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  -->
+
+</urlset>
