@@ -1,24 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <!-- Página Principal -->
+  <!-- Página principal -->
   <url>
     <loc>https://contactautomatex-byte.github.io/central-vip-26-/</loc>
-    <lastmod>2026-02-26</lastmod>
+    <lastmod>2026-02-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
-  <!-- Futuras páginas satélite (preparei estrutura) -->
-  <!-- Quando criar artigos, apenas descomente e ajuste -->
-
-  <!--
+  <!-- Satélite 1 -->
   <url>
-    <loc>https://contactautomatex-byte.github.io/central-vip-26/artigos/acesso-canal-18.html</loc>
-    <lastmod>2026-02-26</lastmod>
+    <loc>https://contactautomatex-byte.github.io/central-vip-26-/artigos/canal-vip-telegram-18.html</loc>
+    <lastmod>2026-02-27</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
-  -->
+
+  <!-- Satélite 2 -->
+  <url>
+    <loc>https://contactautomatex-byte.github.io/central-vip-26-/artigos/grupo-telegram-adulto-privado.html</loc>
+    <lastmod>2026-02-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
 
 </urlset>
