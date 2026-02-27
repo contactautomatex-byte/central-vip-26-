@@ -159,6 +159,12 @@ p { margin: 0 0 10px; }
   box-shadow: 0 20px 50px rgba(0,0,0,0.5);
 }
 
+.brand-logo{
+  display:block;
+  height: 28px;
+  width: auto;
+}
+
 .subtitle {
   max-width: 860px;
   margin: 0 auto 18px;
