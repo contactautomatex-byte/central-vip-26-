@@ -9,6 +9,14 @@
     <priority>1.0</priority>
   </url>
 
+  <!-- HUB PRINCIPAL (Página Rainha) -->
+  <url>
+    <loc>https://contactautomatex-byte.github.io/central-vip-26-/artigos/melhor-canal-vip-telegram-18.html</loc>
+    <lastmod>2026-02-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
   <!-- Satélites iniciais -->
   <url>
     <loc>https://contactautomatex-byte.github.io/central-vip-26-/artigos/canal-vip-telegram-18.html</loc>
@@ -24,7 +32,7 @@
     <priority>0.85</priority>
   </url>
 
-  <!-- Cluster A (Canal VIP Telegram 18+) -->
+  <!-- Cluster A -->
   <url>
     <loc>https://contactautomatex-byte.github.io/central-vip-26-/artigos/canal-vip-telegram-18-guia.html</loc>
     <lastmod>2026-02-27</lastmod>
