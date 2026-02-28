@@ -334,6 +334,78 @@ p { margin: 0 0 10px; }
   color: rgba(255,255,255,0.86);
 }
 
+/* ====== ARTIGOS (cards) ====== */
+.artigos { padding: 56px 0; }
+.artigos-head{
+  display:flex;
+  align-items:flex-end;
+  justify-content:space-between;
+  gap:16px;
+  margin-bottom:18px;
+}
+.artigos-all{ white-space:nowrap; }
+
+.artigos-grid{
+  display:grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap:16px;
+}
+
+.artigo-card{
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(255,255,255,0.03);
+  border-radius: 16px;
+  padding: 18px;
+  transition: transform .15s ease, border-color .15s ease, background .15s ease;
+}
+.artigo-card:hover{
+  transform: translateY(-2px);
+  border-color: rgba(255,255,255,0.18);
+  background: rgba(255,255,255,0.05);
+}
+
+.artigo-card h3{ margin: 0 0 8px; }
+.artigo-card p{ margin: 0 0 14px; color: rgba(255,255,255,0.80); }
+
+.artigo-actions{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+}
+
+.artigo-link{
+  text-decoration:none;
+  font-weight:700;
+}
+.artigo-tag{
+  font-size: 12px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.14);
+  color: rgba(255,255,255,0.85);
+  background: rgba(255,255,255,0.02);
+}
+
+/* card CTA */
+.artigo-card-cta{
+  border-color: rgba(255,60,60,0.35);
+  background: rgba(255,60,60,0.08);
+}
+.cta-button.mini{
+  padding: 10px 14px;
+  font-size: 14px;
+}
+
+/* responsivo */
+@media (max-width: 980px){
+  .artigos-grid{ grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 640px){
+  .artigos-head{ flex-direction:column; align-items:flex-start; }
+  .artigos-grid{ grid-template-columns: 1fr; }
+}
+
 /* =========================
    FAQ (details/summary)
    ========================= */
@@ -382,6 +454,8 @@ footer {
   font-weight: 900;
   margin-bottom: 8px;
 }
+
+
 
 /* =========================
    Utilities (compat com HTML antigo)
